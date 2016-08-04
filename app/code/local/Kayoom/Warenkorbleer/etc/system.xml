@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <warenkorbleer translate="label" module="warenkorbleer">
+            <label>Kayoom Konfiguration</label>
+            <sort_order>1</sort_order>
+        </warenkorbleer>
+    </tabs>
+     
+    <sections>
+        <warenkorbleer_options translate="label" module="warenkorbleer">
+            <label>Warenkorb leer Options</label>
+            <tab>warenkorbleer</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <section_one translate="label">
+                    <label>Warenkorb leer Einstellung</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>                
+                    <fields>
+                        <custom_field_one>
+                            <label>Block Name</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>BlockID eingeben</comment>                   
+                        </custom_field_one>
+                    </fields>
+                </section_one>                
+            </groups>                
+        </warenkorbleer_options>
+    </sections>
+</config>
